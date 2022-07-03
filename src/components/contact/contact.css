@@ -5,6 +5,10 @@
     grid-gap: 12%;
 }
 
+#contact {
+    margin-bottom: 6rem;
+}
+
 .contact__options {
     display: flex;
     flex-direction: column;
