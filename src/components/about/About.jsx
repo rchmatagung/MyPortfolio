@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/about-me.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -28,18 +28,22 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>100+ Client</small>
+              <small>0 Client</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <small>4 Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolorem quis iusto sunt, exercitationem consectetur magni assumenda odio deleniti facilis consequuntur, esse explicabo saepe unde cupiditate doloremque beatae
-            impedit natus.
+            Rachmat Agung (20) is a 3rd-year student of Informatics Engineering Universitas Lampung, 
+            I'm actively participating in organizations to improve my soft skills, such as Team Work, 
+            Communication, Critical Thinking, Analytical Thinking, and Problem Solving. Also, I have 
+            completed several projects with a team that supports the recognition of my soft skills.
+            There are several abilities that I have or am currently working on including Front End Engineer (ReactJS), 
+            Back End Engineer (Golang, PHP, Javascript),Database Management
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
